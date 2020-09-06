@@ -1,0 +1,25 @@
+{
+  "Environment": "dev/test",
+  "Services": [
+    {
+      "Type": "Resource Group",
+      "Name": "innov8-core",
+      "Kind": "",
+      "Sku": {
+        "Tier": "",
+        "Size": ""
+      },
+      "Location": "UK South"
+    },
+    {
+      "Type": "App Service Plan",
+      "Name": "innov8-asp",
+      "Kind": "Linux",
+      "Sku": {
+        "Tier": "Basic",
+        "Size": "B1"
+      },
+      "Location": "UK South"
+    }
+  ]
+}
