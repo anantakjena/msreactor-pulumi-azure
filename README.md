@@ -18,4 +18,4 @@ Import the [sample azure devops pipeline](https://github.com/mistryhardik/msreac
 - Please remember to edit the `pulumi.access.token` pipeline variable in the build pipeline.
 - Save changes and run the pipeline
 
-Should you have issues, tweet or DM them to me [@mistryhardik05](https://twitter.com/mistryhardik05)
+Should you have issues, file them under issues section of this repository.
