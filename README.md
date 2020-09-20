@@ -4,6 +4,7 @@ Hands on for session with #MSReactor on Pulumi with Azure
 - Slides: [MSReactor Pulumi & Azure](https://1drv.ms/p/s!AuHw0yZ3EZrTgok59Tekerc2CqXgwA?e=tMOxR8)
 - Azure DevOps Pipeline: [Build pipelines](https://dev.azure.com/mistryhardik05/MSReactor/_build)
   - Edit pipeline variable `pulumi.access.token` with access_token value from your `Pulumi` account
+- [Learn to build efficient & reliable Azure solutions](https://aka.ms/automatewithPulumiAzure-8)
   
 Import the [sample azure devops pipeline](https://github.com/mistryhardik/msreactor-pulumi-azure/tree/development/azure-devops-pipeline)
 - Download the json file from here [https://github.com/mistryhardik/msreactor-pulumi-azure/tree/development/azure-devops-pipeline](https://github.com/mistryhardik/msreactor-pulumi-azure/tree/development/azure-devops-pipeline)
