@@ -77,7 +77,7 @@ class MyStack : Stack
         var appServiceSettings = new InputMap<string>();
 
         appServiceSettings.Add(Configuration.APPINSIGHTS_INSTRUMENTATIONKEY, appServiceInsights.InstrumentationKey);
-        appServiceSettings.Add(Configuration.APPLICATIONINSIGHTS_CONNECTION_STRING, $"InstrumentationKey={appServiceInsights.InstrumentationKey}");
+        appServiceSettings.Add(Configuration.APPLICATIONINSIGHTS_CONNECTION_STRING, appServiceInsights.InstrumentationKey.Apply(key => $"InstrumentationKey={key}"));
 
         // we read web portal properties
         var webPortal = Configuration.Instance.Services.FirstOrDefault(s => s.Type == Configuration.Web);
