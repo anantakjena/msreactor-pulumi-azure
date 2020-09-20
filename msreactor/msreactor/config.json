@@ -1,0 +1,38 @@
+{
+  "Environment": "dev",
+  "Services": [
+    {
+      "Type": "Resource Group",
+      "Name": "msreactor-rg",
+      "Kind": "",
+      "Sku": {
+        "Tier": "",
+        "Size": ""
+      },
+      "Location": "East US"
+    },
+    {
+      "Type": "App Service Plan",
+      "Name": "msreactor-plan",
+      "Kind": "linux",
+      "Sku": {
+        "Tier": "Basic",
+        "Size": "B1"
+      }
+    },
+    {
+      "Type": "Web",
+      "Name": "msreactor-web"
+    },
+    {
+      "Type": "Api",
+      "Name": "msreactor-api"
+    },
+    {
+      "Type": "Application Insights",
+      "Settings": {
+        "ApplicationType": "web"
+      }
+    }
+  ]
+}
